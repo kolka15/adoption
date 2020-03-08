@@ -1,0 +1,7 @@
+const custodyActionTypes = {
+    FETCH_CUSTODY_START: 'FETCH_CUSTODY_START',
+    FETCH_CUSTODY_SUCCESS: 'FETCH_CUSTODY_SUCCESS',
+    FETCH_CUSTODY_FAILURE: 'FETCH_CUSTODY_FAILURE'
+};
+
+export default custodyActionTypes;

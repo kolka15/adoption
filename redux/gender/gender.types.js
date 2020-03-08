@@ -1,0 +1,7 @@
+const genderActionTypes = {
+    FETCH_GENDER_START: 'FETCH_GENDER_START',
+    FETCH_GENDER_SUCCESS: 'FETCH_GENDER_SUCCESS',
+    FETCH_GENDER_FAILURE: 'FETCH_GENDER_FAILURE'
+};
+
+export default genderActionTypes;

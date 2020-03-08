@@ -1,0 +1,7 @@
+const totalActionTypes = {
+    FETCH_TOTAL_START: 'FETCH_TOTAL_START',
+    FETCH_TOTAL_SUCCESS: 'FETCH_TOTAL_SUCCESS',
+    FETCH_TOTAL_FAILURE: 'FETCH_TOTAL_FAILURE'
+};
+
+export default totalActionTypes;

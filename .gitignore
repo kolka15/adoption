@@ -1,0 +1,16 @@
+.idea
+.next
+package-lock.json
+node_modules
+/node_modules
+yarn.lock
+/utils/config.js
+ecosystem.config.js
+server.js
+robots.txt
+zupdate
+zstart
+zstop
+nohup.out
+err-*
+output.log

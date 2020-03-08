@@ -1,0 +1,33 @@
+.pagination {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.pagination li a {
+    cursor: pointer;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+    transition: all .2s;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pagination li a:hover {
+    background-color: #eeeeee;
+    color: #2f65e2;
+}
+
+.pagination .previous, .pagination .next {
+    display: none;
+}
+
+.pagination .active a {
+    background-color: #3b4255;
+    color: #fff;
+    pointer-events: none;
+}

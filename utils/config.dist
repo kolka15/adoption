@@ -1,0 +1,5 @@
+const dev = process.env.NODE_ENV !== 'production';
+const server = dev ? 'https://xn--b1agisfqlc7e.xn--p1ai' : 'https://xn--b1agisfqlc7e.xn--p1ai';
+
+export default server;
+// test string

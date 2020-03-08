@@ -1,0 +1,20 @@
+.openable {
+    display: none;
+}
+.hoverable:hover + .openable {
+    display: block;
+}
+.openable:hover {
+    display: block;
+}
+.submenu-inner {
+    padding: 25px 15px;
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.16);
+    background: #fff;
+    border-top: 2px solid #007bff;
+    min-width: 150px;
+    max-width: 270px;
+}
+.submenu-inner_main {
+    border-top: 2px solid #8bc3fe;
+}

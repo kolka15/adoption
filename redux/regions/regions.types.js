@@ -1,0 +1,8 @@
+const regionsActionTypes = {
+    FETCH_REGIONS_START: 'FETCH_REGIONS_START',
+    FETCH_REGIONS_SUCCESS: 'FETCH_REGIONS_SUCCESS',
+    FETCH_REGIONS_FAILURE: 'FETCH_REGIONS_FAILURE',
+    SET_REGION: 'SET_REGION'
+};
+
+export default regionsActionTypes;
